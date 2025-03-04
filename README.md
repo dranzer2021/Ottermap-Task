@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Ottermap Task for Frontend Developer Intern 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a React application developed as part of the Frontend Developer Intern selection process at Ottermap. It includes two routes, a form for collecting user data, and an OpenLayers map integration with polygon functionalities.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Two Routes
+- **First Route:**
+  - Contains a search bar and a form with fields for the first name and mobile number.
+  - The entered information is stored in the state.
+- **Second Route:**
+  - Displays the user's name in the center of the header.
+  - Integrates OpenLayers for map functionalities.
+  - Allows users to draw, edit, and delete polygons.
 
-### `npm start`
+## OpenLayers Integration
+- Installed the `openlayers` package ([npm link](https://www.npmjs.com/package/ol)).
+- Implemented a map component in the second route.
+- Added interactive polygon functionalities.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation & Setup
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Clone the Repository
+```sh
+git clone [https://github.com/dranzer2021/Ottermap-Task]
+cd [PROJECT_FOLDER]
+```
 
-### `npm test`
+### Install Dependencies
+```sh
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Start the Development Server
+```sh
+npm start
+```
+Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
-### `npm run build`
+## Deployment
+To build the project for production:
+```sh
+npm run build
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **React.js**
+- **React Router**
+- **OpenLayers (`ol` package)**
+- **State Management (useState)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## GitHub Repository
+Find the project on GitHub: [https://github.com/dranzer2021/Ottermap-Task]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For any queries or further clarifications, feel free to reach out at [akshaykumar.iet@gmail.com] 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
